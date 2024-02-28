@@ -7,23 +7,29 @@ const Header = () => {
         href="/"
         className="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none"
       >
-        <svg className="bi me-2" width={40} height={32}>
+        {/* <svg className="bi me-2" width={40} height={32}>
           <use xlinkHref="#bootstrap" />
-        </svg>
-        <span className="fs-4">Code Engineering Overlords</span>
+        </svg> */}
+        <span className="fs-4">
+          <img 
+            src= {require("../static/imgs/GDSCHCMUTE_LOGO_Vertical_White.png")}
+            alt= "logo"
+            className= "logo"
+          />
+        </span>
       </a>
       <ul className="nav nav-pills">
-        <li className="nav-item">
+        <li className="nav-item d-flex align-items-center">
           <a href="http://localhost:3000/home" className="nav-link active" aria-current="page">
             Home
           </a>
         </li>
-        <li className="nav-item">
+        <li className="nav-item d-flex align-items-center">
           <a href="http://localhost:3000/about" className="nav-link">
             About
           </a>
         </li>
-        <li className="nav-item">
+        <li className="nav-item d-flex align-items-center">
           <a href="http://localhost:3000/contact" className="nav-link">
             Contact
           </a>
