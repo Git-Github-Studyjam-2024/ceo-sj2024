@@ -33,6 +33,18 @@ body, #root {
   font-size: 16px;
   line-height: 1;
 }
+.header_custom{
+  position: relative;
+  z-index: 1;
+}
+.header_custom::before{
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: calc(100% - 1.5rem);
+  background-color: white;
+}
 @media (max-width: 900px) {
   .m-w-75 {
     width: 80% !important;

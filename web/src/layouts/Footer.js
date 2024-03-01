@@ -1,42 +1,56 @@
 import React from "react";
-
+import logo_btc from "./../static/imgs/GDSCHCMUTE_LOGO_Vertical_White.png";
 const Footer = () => {
   return (
-    <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-      <div className="col-md-4 d-flex align-items-center">
-        <a
-          href="/"
-          className="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1"
-        >
-          <svg className="bi" width={30} height={24}>
-            <use xlinkHref="#bootstrap" />
-          </svg>
-        </a>
-        <span className="mb-3 mb-md-0 text-muted">© 2022 Company, Inc</span>
+    <footer className="d-flex flex-no-wrap justify-content-between align-items-center py-3 px-3 my-4 border-top">
+      <div className="footer_logo">
+        <img src={logo_btc} alt="logo_btc_footer" className="logo ps-3" />
+        <ul className="footer_logo_list d-flex flex-row justify-content-center pt-2">
+          <li className="footer_logo_item px-2">
+            <a href="https://www.facebook.com/vominh.thuan.1004/">
+              <i className="fab fa-facebook"></i>
+            </a>
+          </li>
+          <li className="footer_logo_item px-2">
+            <a href="email: thuanvminh1151@gmail.com">
+              <i className="fa fa-envelope"></i>
+            </a>
+          </li>
+          <li className="footer_logo_item px-2">
+            <a href="tel:+84355524273">
+              <i className="fa fa-phone"></i>
+            </a>
+          </li>
+        </ul>
       </div>
-      <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
-        <li className="ms-3">
-          <a className="text-muted" href="http://localhost:3000/">
-            <svg className="bi" width={24} height={24}>
-              <use xlinkHref="#twitter" />
-            </svg>
-          </a>
-        </li>
-        <li className="ms-3">
-          <a className="text-muted" href="http://localhost:3000/">
-            <svg className="bi" width={24} height={24}>
-              <use xlinkHref="#instagram" />
-            </svg>
-          </a>
-        </li>
-        <li className="ms-3">
-          <a className="text-muted" href="http://localhost:3000/">
-            <svg className="bi" width={24} height={24}>
-              <use xlinkHref="#facebook" />
-            </svg>
-          </a>
-        </li>
-      </ul>
+      <div className="footer_contact">
+        <div className="footer_contact--email">
+          <span className="h4">Liên hệ</span>
+          <div className="pt-2 pb-2">
+            <span>
+              dsc.hcmute@gmail.com
+              <br />
+              https://www.facebook.com/gdsc.hcmute
+            </span>
+          </div>
+        </div>
+        <div className="footer_contact--address">
+          <span className="h4">Địa chỉ</span>
+          <div className="pt-2">
+            <span>
+              01 Võ Văn Ngân, Linh Chiểu, Thủ Đức, Thành phố Hồ Chí Minh
+            </span>
+          </div>
+        </div>
+      </div>
+      {/* <div className="footer_description">
+        aaaaaaaaaaaaaaaaaaaaaaa
+        <br/>
+        aaaaaaaaaaaaaaaaaaaaaaa
+        <br/>
+        aaaaaaaaaaaaaaaaaaaaaaa
+        <br/>
+      </div> */}
     </footer>
   );
 };
