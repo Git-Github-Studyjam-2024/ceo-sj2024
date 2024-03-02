@@ -37,16 +37,25 @@ body, #root {
   position: relative;
   z-index: 1;
 }
-.header_custom::before{
+/* .header_custom::before{
   content: "";
   position: absolute;
   z-index: -1;
   width: 100%;
   height: calc(100% - 1.5rem);
   background-color: white;
-}
+} */
 @media (max-width: 900px) {
   .m-w-75 {
     width: 80% !important;
   }
+  .footer_description{
+    display: none;
+  }
+}
+.active{
+  background-color: rgb(67, 104, 185) !important;
+}
+.active:hover{
+  opacity: 0.6;
 }

@@ -7,17 +7,17 @@ const Footer = () => {
         <img src={logo_btc} alt="logo_btc_footer" className="logo ps-3" />
         <ul className="footer_logo_list d-flex flex-row justify-content-center pt-2">
           <li className="footer_logo_item px-2">
-            <a href="https://www.facebook.com/vominh.thuan.1004/">
+            <a href="https://www.facebook.com/luan.su.52">
               <i className="fab fa-facebook"></i>
             </a>
           </li>
           <li className="footer_logo_item px-2">
-            <a href="email: thuanvminh1151@gmail.com">
+            <a href="email: sm.luan2003@gmail.com">
               <i className="fa fa-envelope"></i>
             </a>
           </li>
           <li className="footer_logo_item px-2">
-            <a href="tel:+84355524273">
+            <a href="tel:+84975271474">
               <i className="fa fa-phone"></i>
             </a>
           </li>
@@ -28,9 +28,9 @@ const Footer = () => {
           <span className="h4">Liên hệ</span>
           <div className="pt-2 pb-2">
             <span>
-              dsc.hcmute@gmail.com
+              sm.luan2003@gmail.com
               <br />
-              https://www.facebook.com/gdsc.hcmute
+              https://www.facebook.com/luan.su.52
             </span>
           </div>
         </div>
@@ -43,14 +43,9 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      {/* <div className="footer_description">
-        aaaaaaaaaaaaaaaaaaaaaaa
-        <br/>
-        aaaaaaaaaaaaaaaaaaaaaaa
-        <br/>
-        aaaaaaaaaaaaaaaaaaaaaaa
-        <br/>
-      </div> */}
+      <div className="footer_description">
+      Code Engineering Overloads (CEO) are students participating in the Git & Github Study Jam by GDSC. By joining a CEO, you will see our impressive web ideas, apply GDSC's knowledge in a peer-to-peer learning environment.
+      </div>
     </footer>
   );
 };
