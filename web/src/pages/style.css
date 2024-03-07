@@ -1,0 +1,8 @@
+.style_pic_thuan{
+    --size_width: 400px;
+    width: var(--size_width);
+    height: var(--size_width);
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 10px rgb(92, 138, 199);
+}
