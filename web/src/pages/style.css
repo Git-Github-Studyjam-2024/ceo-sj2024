@@ -1,0 +1,21 @@
+.about-modify{
+    position: relative;
+    z-index: 1;
+}
+
+.about-modify::before{
+    content: "";
+    position: absolute;
+    width: 2000px;
+    height: 110%;
+    background-color: white;
+    top: 20px;
+    left: -10px;
+    z-index: -1;
+}
+.pc-logo{
+    border-radius: 50%;
+}
+.content{
+    line-height: 2rem;
+}
