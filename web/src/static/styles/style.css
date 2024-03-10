@@ -32,6 +32,7 @@ body, #root {
   font-weight: 400;
   font-size: 16px;
   line-height: 1;
+  overflow: hidden;
 }
 .header_custom{
   position: relative;
