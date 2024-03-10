@@ -1,3 +1,4 @@
+
 import React from "react";
 import logo from "./../static/imgs/KienPhan.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -5,13 +6,13 @@ import { faFacebook, faGithub, faInstagram, faLinkedin } from '@fortawesome/free
 import { FaGithub, FaFacebookSquare, FaLinkedin } from "react-icons/fa";
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import pic_Du from "./../static/imgs/LcYuu's picture.jpg";
-
 import "./style.css";
-
+import imgNhi from "./../static/imgs/img_Nhi.jpg"
+import "./style.css"
 const About = () => {
   return (
     <div >
-
+     
       <div className="h-100 w-100 d-flex flex-row justify-content-around align-items-top col-md-2">
         <div className="flex-col align-items-center d-block col-md-2">
           <h1 className="text-white">
@@ -91,7 +92,8 @@ const About = () => {
           </div>
 
         </div>
-        <section id="about" className="shadow-blue white-bg w-100 h-100 d-flex flex-column justify-content-center algin-items-center">
+        
+        <section id="about" className=" text-white shadow-blue white-bg w-100 h-100 d-flex flex-column justify-content-center algin-items-center">
           <div>
             <div
               className="spacer"
@@ -104,7 +106,7 @@ const About = () => {
               </div>
               <div className="col-md-9">
                 <h2 className="mt-4 mt-md-0 mb-4">Hello, </h2>
-                <p className="content">
+                <p className="content ">
                   I'm Kien, a junior student at HCMUTE. Computers, programming,
                   offline games, and football are all things that I'm passionate
                   about. Currently, as an electronic engineering student, I'm
@@ -115,30 +117,30 @@ const About = () => {
                 <div className="row my-4">
                   <div className="col-md-6">
                     <p className="mb-2">
-                      Name: <span className="text-dark">Phan Duy Kien </span>
+                      Name: <span className="text-white">Phan Duy Kien </span>
                     </p>
                     <p className="mb-2">
                       Address:{" "}
-                      <span className="text-dark">Trang Bom, Dong Nai </span>
+                      <span className="text-white">Trang Bom, Dong Nai </span>
                     </p>
                     <p className="mb-2">
                       University:{" "}
-                      <span className="text-dark">
+                      <span className="text-white">
                         Ho Chi Minh City University of Technology and Education{" "}
                       </span>
                     </p>
                   </div>
                   <div className="col-md-6 mt-2 mt-md-0 mt-sm-2">
                     <p className="mb-2">
-                      Phone: <span className="text-dark">0943145813 </span>
+                      Phone: <span className="text-white">0943145813 </span>
                     </p>
                     <p className="mb-2">
                       Email:{" "}
-                      <span className="text-dark">kienphan30103@gmail.com </span>
+                      <span className="text-white">kienphan30103@gmail.com </span>
                     </p>
                     <p style={{ textAlign: "left" }}>
                       Major:{" "}
-                      <span className="text-dark">
+                      <span className="text-white">
                         Automation and Control Engineering Technology{" "}
                       </span>
                     </p>
@@ -171,13 +173,27 @@ const About = () => {
           </ul>
         </section>
       </div>
-
+      <div className='h-auto about-info d-flex flex-column justify-content-center align-items-start text-white'>
+        <span className='py-3 display-8'>
+          Chào mọi người. Tôi là
+        </span>
+        <span className='display-5 border-top border-bottom '>
+          Tuyết Nhi
+        </span>
+        <span className='py-3 display-8'>
+          Sinh viên năm 3 Trường Đại học Sư phạm Kỹ thuật TPHCM
+        </span>
+        <span className='display-8'>
+          Mục tiêu: Lương ngàn đô
+        </span>
+      </div>
+      <div className='about-image'>
+        <img src={imgNhi} alt='image nhi' className='about-image-style' width={300} height={400} />
+      </div>
     </div>
-  );
-};
-
-
-
+  )
+}
 
 export default About;
+
 
