@@ -40,3 +40,8 @@
 .footer_description{
     color: aliceblue;
 }
+.footer_description{
+    width: 260px;
+    text-align: justify;
+    letter-spacing: 1px;
+}

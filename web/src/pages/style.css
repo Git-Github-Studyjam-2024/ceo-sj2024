@@ -1,4 +1,12 @@
 
+.style_pic_thuan{
+    --size_width: 400px;
+    width: var(--size_width);
+    height: var(--size_width);
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 10px rgb(92, 138, 199);
+}
 .about-image-style{
     object-fit: cover;
 }
@@ -53,6 +61,7 @@
     object-fit: cover;
     border-radius: 50%;
     box-shadow: 0px 0px 10px 10px rgb(92, 138, 199);
+
 }
 .style_pic_Du {
     --size_width: 200px;
@@ -163,3 +172,4 @@ body {
     color: #fff;
     height: 40px;
 }
+
